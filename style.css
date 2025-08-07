@@ -109,7 +109,7 @@ td {
     text-align: center;
     flex-shrink: 0;
 }
-.notes {
-    font-size: 25px;
+p {
+    font-size: 26px;
 }
 }
