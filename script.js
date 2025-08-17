@@ -3,9 +3,9 @@ let btn1 = document.querySelector(#btn1)
   let btn3 = document.querySelector(#btn3)
   let btn4 = document.querySelector(#btn4)
   let btn5 = document.querySelector(#btn5)
-
+  let btn6 = document.querySelector(#btn6)
   function show(i) { 
-    for (let count = 1 ; count < 6 ; count ++)
+    for (let count = 1 ; count <= 6 ; count ++)
     if ( count === i ) {
         let note= #note+count ;
         console.log (note);
@@ -25,3 +25,4 @@ let btn1 = document.querySelector(#btn1)
   btn3.addEventListener(click,() => {show(3);})
   btn4.addEventListener(click,() => {show(4);})
   btn5.addEventListener(click,() => {show(5);})
+  btn6.addEventListener(click,() => {show(6);})
