@@ -40,7 +40,7 @@ button {
     cursor: pointer;
 }
 .caption {
-    align-self:center ;background-color: rgba(204, 166, 166, 0.15);
+    align-self:center ;
     text-align: center;
     color: black;
     font-size: 15px;
@@ -71,10 +71,12 @@ td {
 .time {
     width: 64vw; height: 60vh;
         background-color: rgba(207, 118, 118, 0.15);
+        overflow: scroll;
 }
 .books {
-    width: 35vw;height: 60vh;
+    width: 35vw;
         background-color: rgba(207, 118, 118, 0.15);
+        overflow: scroll;
 }
 .timeandbooks {
     background-color:rgba (207, 118, 118, 0.15);
@@ -100,14 +102,13 @@ table {
 } 
 .books {
     width: 100vw;
-    height: 30vh;
 }
 .timeandbooks {
     flex-direction: column;
     padding-right: 5px;
     }
 #buttons {
-    gap: 15px;
+    gap: 10px;
 }
 th {
     background-color : #03488599;
@@ -125,15 +126,15 @@ td {
     flex-shrink: 0;
 }
 p {
-    font-size: 26px;
+    font-size: 24px;
 }
 h5 {
-    font-size: 35px;
+    font-size: 32px;
 }
 #slots {
     font-weight: 800;
 }
 h4 {
-    font-size: 40px;
+    font-size: 38px;
 }
 }
