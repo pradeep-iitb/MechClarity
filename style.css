@@ -76,7 +76,6 @@ td {
 .books {
     width: 35vw;
         background-color: rgba(207, 118, 118, 0.15);
-        overflow: scroll;
 }
 .timeandbooks {
     background-color:rgba (207, 118, 118, 0.15);
