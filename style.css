@@ -9,9 +9,9 @@
     width: 100vw; 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;  
-    gap: 1vw; 
+    gap: 5px; 
     border-bottom: solid rgb(9, 5, 66);
 } 
 .appimg {
