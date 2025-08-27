@@ -105,10 +105,16 @@ table {
 .books {
     width: 100vw;
 }
+.books h4 , a {
+    color: white;
+}
 .timeandbooks {
     flex-direction: column;
     padding-right: 5px;
     }
+.caption , th , td {
+    color : white ;
+}
 #buttons {
     gap: 10px;
 }
