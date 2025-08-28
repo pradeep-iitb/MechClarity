@@ -1,6 +1,9 @@
 * {padding: 0%;
         margin: 0%;
 }
+body {
+    overflow-x: hidden;
+}
 @keyframes bg{
     0% {background-position : 0% 50% ;}
     50% {background-position : 50% 100% ;}
@@ -73,7 +76,7 @@ td {
         background-color: rgba(207, 118, 118, 0.15);
         overflow-y: scroll;
         scrollbar-width: none;
-        overflow-x: hidden;
+        overflow-x: scroll;
 }
 .books {
     width: 35vw;
@@ -86,6 +89,7 @@ td {
     justify-content: space-evenly;
     padding: 15px 5px 0px 5px ;
     gap: 10px;
+    width: 100vw;
     overflow: hidden;
 }
 table {
