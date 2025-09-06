@@ -83,6 +83,9 @@ td {
         background-color: rgba(207, 118, 118, 0.15);
         overflow: hidden ;
 }
+.optional {
+    color: rgb(107, 4, 4);
+}
 .timeandbooks {
     background-color:rgba (207, 118, 118, 0.15);
     display: flex;
