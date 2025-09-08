@@ -130,6 +130,9 @@ td {
     scrollbar-width: none;
     display: none;
 }
+#MessMenuPdf {
+    display: none;
+}
 
 .optional {
     color: rgb(107, 4, 4);
@@ -143,21 +146,6 @@ table {
 }
 
 @media (max-width:1200px) {
-    #apps { 
-        width: 100vw; 
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;  
-        gap: 5px; 
-        border-bottom: solid rgb(9, 5, 66);
-    } 
-    .appimg {
-        height: 90px;
-        width: 180px;
-        padding-top: 3px;
-        border-radius: 15px ;
-    }
     .notes {
           height: 30vh;
           color: rgb(218, 228, 238);
@@ -168,6 +156,7 @@ table {
         color: black;
         font-size: 30px;
     }
+
     button {
         display: block;
         height: 40px;
@@ -207,7 +196,7 @@ table {
         text-align: center;
     }
     .time {
-        width: 64vw; height: 60vh;
+        width: 64vw; height: 40vh;
             background-color: rgba(207, 118, 118, 0.15);
             overflow-y: scroll;
             scrollbar-width: none;
@@ -217,6 +206,7 @@ table {
         width: 35vw;
             background-color: rgba(207, 118, 118, 0.15);
             overflow: hidden ;
+            height: 50vh;
     }
     .optional {
         color: rgb(107, 4, 4);
@@ -226,9 +216,11 @@ table {
         display: flex;
         justify-content: space-evenly;
         padding: 15px 5px 0px 5px ;
+        margin: 0px;
         gap: 10px;
         width: 100vw;
         overflow: hidden;
+        height: 70vh;
     }
     table {
         padding-bottom: 10px;
@@ -242,8 +234,12 @@ table {
     overflow: scroll;
     flex-shrink: 0;
 } 
+#MessMenuPdf {
+    display: block;
+}
 .books {
     width: 100vw;
+    height: 35vh;
 }
 .books h4 , a {
     color: white;
@@ -285,15 +281,12 @@ h5 {
 h4 {
     font-size: 38px;
 }
-#menuDropdown {
-    width: 95vw;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 20vh;
-}
-#menuDropdownContent {
-    height: 100%;
-    width: 100%;
-    
-}
+#menuDropdown { width: 95vw; padding-left: 10px; padding-right: 10px; height: 20vh; } 
+#menuDropdownContent { height: 100%; width: 100%;  } 
+#menuDropdown {     display: none; } 
+#menuDropdownText {     display: none; } 
+#menuDropdownContent {     display: none; } 
+.navigation {     display: none; } 
+#forward {     display: none; } 
+#backward {   display: none; }
 }
