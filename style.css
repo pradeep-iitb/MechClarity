@@ -184,6 +184,7 @@ table {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     border-bottom: solid rgb(9, 5, 66);
+    overflow: hidden;
 
 } 
 #apps{
@@ -230,7 +231,7 @@ table {
         text-align: center;
     }
     .time {
-        width: 64vw; height: 40vh;
+        width: 64vw; height: 60vh;
             background-color: rgba(207, 118, 118, 0.15);
             overflow-y: scroll;
             scrollbar-width: none;
