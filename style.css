@@ -198,7 +198,7 @@ table {
 .spline{
     grid-area: 1/2/3/8;
     position: relative;
-    right: -50px;
+     right: -90px;
 }
     .caption {
         align-self:center ;
