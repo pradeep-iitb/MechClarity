@@ -267,8 +267,9 @@ table {
 }
 .hero{
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 1fr 1fr ;
     width: 100vw;
+    height: 600px;
 }
 #apps{
      grid-area: 1/1/2/3;
