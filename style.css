@@ -3,6 +3,11 @@
 }
 body {
     overflow-x: hidden;
+    background-image: url('./Images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 @keyframes bg{
     0% {background-position : 0% 50% ;}
@@ -37,6 +42,31 @@ body {
 .notes {
       height: 40vh;
       color: rgb(218, 228, 238);
+      padding: 20px;
+      border: 3px solid transparent;
+      border-radius: 15px;
+      background: linear-gradient(135deg, rgba(30, 58, 138, 0.4), rgba(76, 29, 149, 0.4));
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      transition: all 0.4s ease-in-out;
+      animation: fadeIn 0.6s ease-in;
+}
+
+.notes:hover {
+      transform: translateY(-5px);
+      border-color: rgba(147, 51, 234, 0.6);
+      box-shadow: 0 12px 48px rgba(147, 51, 234, 0.4);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 h4  {
     background-color: rgba(204, 166, 166, 0.15);
@@ -49,9 +79,35 @@ button {
     height: 40px;
     width: 120px;
     font-size: 20px;
-    color: black;
-    background: linear-gradient( 45deg ,rgb(6, 4, 165),blue,rgb(76, 8, 165)) ;
+    color: white;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    background-size: 200% 200%;
     cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    transition: all 0.3s ease;
+    animation: gradientShift 3s ease infinite;
+}
+
+button:hover {
+    transform: scale(1.1) translateY(-2px);
+    box-shadow: 0 8px 25px rgba(147, 51, 234, 0.6);
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+@keyframes gradientShift {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
 }
 .caption {
     align-self:center ;
