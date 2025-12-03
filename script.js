@@ -5,6 +5,7 @@
   let btn4 = document.querySelector("#btn4")
   let btn5 = document.querySelector("#btn5")
   let btn6 = document.querySelector("#btn6")
+
   function show(i) { 
     for (let count = 1 ; count < 7 ; count ++)
     if ( count === i ) {
